@@ -7,6 +7,7 @@ const jwt = require('jsonwebtoken');
 // API to add a new food donation
 food.post('/add', (req, res) => {
         const { user_id, food_name, quantity, description, expiration_date } = req.body;
+        console.log(req.body);
         
         db.query(`select * from users where user_id = ${user_id}`,(err,data)=>{
             if(err)
