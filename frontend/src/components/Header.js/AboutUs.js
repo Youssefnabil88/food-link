@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './AboutUs.module.css';
-import bag from '../../Assets/bag2.png'; // Imported image
+import bag from '../../Assets/bag2.png'; 
 
 
 export default function AboutUs() {
@@ -41,7 +41,7 @@ export default function AboutUs() {
                 <h2>OUR MISSION</h2>
             </div>
             <div className={styles.missionText}>
-                <p>Food Link is a social impact company on a mission to inspire and empower everyone to fight food waste together.</p>
+                <p>Food Link is a social impact company with a mission to empower everyone to fight food waste in Egypt together.</p>
             </div>
 
             {/* Why Use FoodLink */}
@@ -57,7 +57,7 @@ export default function AboutUs() {
 
             {/* Right Text with Pizza Icon */}
             <div ref={rightTextRef} className={styles.textRight}>
-                <p>Rescue food near you <i className="fas fa-pizza-slice"></i></p>
+                <p>Save food near you <i className="fas fa-pizza-slice"></i></p>
             </div>
 
             {/* Image */}
