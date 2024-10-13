@@ -26,21 +26,19 @@ const Login = () => {
         try {
             const response = await axios.post('/login', formData);
             setMessage(response.data.message);
-
+    
             if (response.data.token) {
                 localStorage.setItem('token', response.data.token); // Save token to local storage
-
+                localStorage.setItem('charityName', response.data.data[0].name); // Save charity/user name to local storage
+    
                 // Check user type and redirect accordingly
                 if (response.data.data[0].user_type === 'charity') {
                     navigate('/FoodDonationApp'); // Redirect to FoodDonationApp for charity
                 } 
                 else if (response.data.data[0].user_type === 'donor') {
                     navigate('/DonerDashBoard'); 
-                }
-                else {
-                    // Optionally handle other user types
-                    // navigate('/SomeOtherComponent'); 
-                    navigate('/FoodDonationApp'); // Redirect to FoodDonationApp for donor as well (if applicable)
+                } else {
+                    navigate('/FoodDonationApp'); // Redirect to FoodDonationApp for others (if applicable)
                 }
             }
         } catch (error) {
@@ -48,6 +46,7 @@ const Login = () => {
             setMessage('Error logging in. Please try again.');
         }
     };
+    
 
     return (
         <div className={styles.container}>
