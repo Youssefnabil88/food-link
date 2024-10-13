@@ -171,5 +171,23 @@ request.get('/request/totalcharities', (req, res) => {
     });
 });
 
+// Get the charity id by charity name
+request.get('/charityid/:charityName',  (req, res) => {
+    const  charityName  = req.params.charityName;
+    db.query(`select user_id from users where name = '${charityName}'`,(err,data)=>{
+        if(err) {
+            res.json({ message: 'Error' });
+        }
+        else if(data.length === 0){
+            res.json({ message: 'Charity not found' });
+        }
+        else{
+            res.json(data[0]);
+        }
+    });
+
+});
+
+
 
 module.exports = request;
