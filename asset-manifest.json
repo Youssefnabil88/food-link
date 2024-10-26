@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/food-link/static/css/main.87510569.css",
-    "main.js": "/food-link/static/js/main.de61988f.js",
-    "static/media/hero-image.jfif": "/food-link/static/media/hero-image.28bf59afdc6364aa8015.jfif",
-    "static/media/logo.jfif": "/food-link/static/media/logo.dd8a9684c85dca2d04e6.jfif",
-    "static/media/food-item.jfif": "/food-link/static/media/food-item.5b4baf411b0d52e5cf68.jfif",
-    "index.html": "/food-link/index.html",
-    "main.87510569.css.map": "/food-link/static/css/main.87510569.css.map",
-    "main.de61988f.js.map": "/food-link/static/js/main.de61988f.js.map"
+    "main.css": "/FoodLinkFinal.github.io/static/css/main.d2990fb8.css",
+    "main.js": "/FoodLinkFinal.github.io/static/js/main.793aa46e.js",
+    "static/media/Home-img.png": "/FoodLinkFinal.github.io/static/media/Home-img.7e5b9768f9b8542abc9e.png",
+    "static/media/bag2.png": "/FoodLinkFinal.github.io/static/media/bag2.a63a978f6c2f09eacbf7.png",
+    "static/media/greenbg.png": "/FoodLinkFinal.github.io/static/media/greenbg.b6d45334e5b17c3c2177.png",
+    "static/media/logoidea1.png": "/FoodLinkFinal.github.io/static/media/logoidea1.b3d23d68651e730b8a4a.png",
+    "static/media/goal1.png": "/FoodLinkFinal.github.io/static/media/goal1.ae15c2a62508f31f6f62.png",
+    "static/media/goal2.png": "/FoodLinkFinal.github.io/static/media/goal2.4c6743c898dd1214d098.png",
+    "static/media/food-item.jfif": "/FoodLinkFinal.github.io/static/media/food-item.5b4baf411b0d52e5cf68.jfif",
+    "index.html": "/FoodLinkFinal.github.io/index.html",
+    "main.d2990fb8.css.map": "/FoodLinkFinal.github.io/static/css/main.d2990fb8.css.map",
+    "main.793aa46e.js.map": "/FoodLinkFinal.github.io/static/js/main.793aa46e.js.map"
   },
   "entrypoints": [
-    "static/css/main.87510569.css",
-    "static/js/main.de61988f.js"
+    "static/css/main.d2990fb8.css",
+    "static/js/main.793aa46e.js"
   ]
 }
