@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/FoodLinkFinal.github.io/static/css/main.d2990fb8.css",
-    "main.js": "/FoodLinkFinal.github.io/static/js/main.793aa46e.js",
-    "static/media/Home-img.png": "/FoodLinkFinal.github.io/static/media/Home-img.7e5b9768f9b8542abc9e.png",
-    "static/media/bag2.png": "/FoodLinkFinal.github.io/static/media/bag2.a63a978f6c2f09eacbf7.png",
-    "static/media/greenbg.png": "/FoodLinkFinal.github.io/static/media/greenbg.b6d45334e5b17c3c2177.png",
-    "static/media/logoidea1.png": "/FoodLinkFinal.github.io/static/media/logoidea1.b3d23d68651e730b8a4a.png",
-    "static/media/goal1.png": "/FoodLinkFinal.github.io/static/media/goal1.ae15c2a62508f31f6f62.png",
-    "static/media/goal2.png": "/FoodLinkFinal.github.io/static/media/goal2.4c6743c898dd1214d098.png",
-    "static/media/food-item.jfif": "/FoodLinkFinal.github.io/static/media/food-item.5b4baf411b0d52e5cf68.jfif",
-    "index.html": "/FoodLinkFinal.github.io/index.html",
-    "main.d2990fb8.css.map": "/FoodLinkFinal.github.io/static/css/main.d2990fb8.css.map",
-    "main.793aa46e.js.map": "/FoodLinkFinal.github.io/static/js/main.793aa46e.js.map"
+    "main.css": "/FoodLinkFinal/static/css/main.2598bc5b.css",
+    "main.js": "/FoodLinkFinal/static/js/main.d0a0beb7.js",
+    "static/media/Home-img.png": "/FoodLinkFinal/static/media/Home-img.7e5b9768f9b8542abc9e.png",
+    "static/media/bag2.png": "/FoodLinkFinal/static/media/bag2.a63a978f6c2f09eacbf7.png",
+    "static/media/greenbg.png": "/FoodLinkFinal/static/media/greenbg.b6d45334e5b17c3c2177.png",
+    "static/media/logoidea1.png": "/FoodLinkFinal/static/media/logoidea1.b3d23d68651e730b8a4a.png",
+    "static/media/goal1.png": "/FoodLinkFinal/static/media/goal1.ae15c2a62508f31f6f62.png",
+    "static/media/goal2.png": "/FoodLinkFinal/static/media/goal2.4c6743c898dd1214d098.png",
+    "static/media/food-item.jfif": "/FoodLinkFinal/static/media/food-item.5b4baf411b0d52e5cf68.jfif",
+    "index.html": "/FoodLinkFinal/index.html",
+    "main.2598bc5b.css.map": "/FoodLinkFinal/static/css/main.2598bc5b.css.map",
+    "main.d0a0beb7.js.map": "/FoodLinkFinal/static/js/main.d0a0beb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2990fb8.css",
-    "static/js/main.793aa46e.js"
+    "static/css/main.2598bc5b.css",
+    "static/js/main.d0a0beb7.js"
   ]
 }
